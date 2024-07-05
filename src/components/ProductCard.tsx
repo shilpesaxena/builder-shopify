@@ -330,7 +330,7 @@
 const ProductCard = ({product}: any) => {
   return(
     <div>
-      This is product Title {product.title}
+      This is product Title {product?.title}
     </div>
   )
 }
