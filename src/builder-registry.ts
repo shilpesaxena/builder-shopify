@@ -115,7 +115,7 @@ Builder.registerComponent(SectionSliderProductCard, {
       subFields: [
         {
           name: "product item",
-          type: "CommercetoolsProduct",
+          type: "ShopifyProduct",
         },
       ],
     },
@@ -469,7 +469,7 @@ Builder.registerComponent(SectionGridFeatureItems, {
       subFields: [
         {
           name: "product item",
-          type: "CommercetoolsProduct",
+          type: "ShopifyProduct",
         },
       ],
     },
