@@ -24,11 +24,11 @@ const SectionSliderProductCard: FC<SectionSliderProductCardProps> = ({
   headingClassName,
   heading,
   subHeading = "REY backpacks & bags",
-  products = defaultProduct,
+  products,
 }) => {
   const sliderRef = useRef(null);
   const productsData = products?.map(
-    (item: any) => item?.["product item"]?.data?.masterData?.current
+    (item: any) => item?.["product item"]?.data
   );
 
 
